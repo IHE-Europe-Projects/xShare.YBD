@@ -2,7 +2,7 @@
 # ───────────────────────────────────────────────────
 # the id should be lowercase made up of "ihe." + {domain acronym} + "." + {profile acronym/short-name}
 # e.g. ihe.iti.mhds, or ihe.iti.basicaudit
-id: ihe.eu.xshare.ybd
+id: ihe-europe.xshare.ybd
 canonical: https://profiles.ihe-europe.net/xShare/YBD
 version: 0.0.1-current
 name: IHE_XSHARE_YBD
