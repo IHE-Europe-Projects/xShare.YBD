@@ -41,10 +41,10 @@ The relevant YBD actors and their transactions are listed in Table 1.
 | Document Responder | ITI-66: Find Document Lists (Responder) | R |
 |  | ITI-67: Find Document Reference (Responder) | R |
 |  | ITI-68: Retrieve Document (Responder) | R |
-| Data Consumer | CA:FeX-2: Search Data (Initiator) | R |
-|  | CA:FeX-3: Retrieve Data (Initiator) | R |
-| Data Responder | CA:FeX-2: Search Data (Responder) | R |
-|  | CA:FeX-3: Retrieve Data (Responder) | R |
+| Data Consumer | CA:FeX-2A: Search Data (Initiator) | R |
+|  | CA:FeX-3A: Retrieve Data (Initiator) | R |
+| Data Responder | CA:FeX-2A: Search Data (Responder) | R |
+|  | CA:FeX-3A: Retrieve Data (Responder) | R |
 | Audit Creator | ITI-20: Record Audit Event (Initiator & Responder) | R |
 | Content Consumer / Content Creator | PCC-1: Share content (Initiator / Responder) | R Note-2 |
 {:.grid}
