@@ -24,6 +24,7 @@ style="max-width: 100%; object-fit: contain" />
 The relevant YBD actors and their transactions are listed in Table 1.
 
 **Table-1: YBD Actors and Transactions
+
 | **Actor** | **Transaction** | **Optionality** |
 |----|----|----|
 | Authorization Client | ITI-71: Get Authorization Token (Initiator) | R |
@@ -47,6 +48,7 @@ The relevant YBD actors and their transactions are listed in Table 1.
 | Audit Creator | ITI-20: Record Audit Event (Initiator & Responder) | R |
 | Content Consumer / Content Creator | PCC-1: Share content (Initiator / Responder) | R Note-2 |
 {:.grid}
+
 Note-1: In a FHIR infrastructure, both actors SHALL support ITI-78. In a
 legacy (HL7v2) infrastructure, both actors SHALL support ITI-21. The
 actors MAY support both transactions.
