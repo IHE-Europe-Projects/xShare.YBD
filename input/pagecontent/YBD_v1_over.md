@@ -221,7 +221,7 @@ Flexible implementation approaches that support the roll-out of EEHRxF
 in a managed way will allow us to progress from success to success.
 
 <figure>
-<img src="image3.png" style="max-width: 75%; object-fit: contain" />
+<img src="image3.png" style="max-width: 100%; object-fit: contain" />
 <figcaption><p>Figure 3 - YB Implementation Options</p></figcaption>
 </figure>
 
