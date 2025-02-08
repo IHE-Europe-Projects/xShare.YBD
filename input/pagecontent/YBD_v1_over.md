@@ -1,4 +1,3 @@
-# Volume-1: Business Description
 
 ## Introduction
 

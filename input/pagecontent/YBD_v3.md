@@ -1,4 +1,3 @@
-# Volume-3: Content 
 
 This section is used to describe the conformance-testable schema for the
 message or document content, including normative references to both
@@ -57,9 +56,7 @@ TBD
 
 ### CDA
 
-## <https://health.ec.europa.eu/publications/ehn-laboratory-result-guidelines_en> 
-
-##  
+<https://health.ec.europa.eu/publications/ehn-laboratory-result-guidelines_en> 
 
 ## Discharge Report Content Specification
 

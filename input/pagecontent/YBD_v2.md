@@ -1,4 +1,3 @@
-# Volume-2: Transactions 
 
 The normative transactions for each Actor are defined, here. Where these
 transactions are elsewhere defined by other IHE Profiles, these

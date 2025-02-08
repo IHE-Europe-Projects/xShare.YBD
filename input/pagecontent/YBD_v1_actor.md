@@ -1,4 +1,3 @@
-# Volume-1: Actors, Transactions, and Content Modules
 
 This section describes the normative actors who will participate in
 interoperable content exchange and the transactions that will
