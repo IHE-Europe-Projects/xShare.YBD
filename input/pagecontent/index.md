@@ -1,5 +1,5 @@
 
-The IHE Computable Care Guidelines (CCG) Profile specifies a normative grammar and a normative transaction processing model that allows evidence-based care recommendations to be expressed in a way that a digital health solution can ingest and operationalize. This is an implementable and conformance-testable specification. It is targeted to regulated healthcare markets where the support for multiple conditions is an important requirement. The CCG Profile supports jurisdictions that want to leverage digital health to systemically improve the adoption of guideline-adherent best practices across an entire care delivery network. 
+The xShare Yellow Button Download (YBD) Profile specifies how groups of existing actor-transaction specifications may be employed to operationalize the YBD workflows.
 
 <div markdown="1" class="stu-note">
 
@@ -13,17 +13,14 @@ The IHE Computable Care Guidelines (CCG) Profile specifies a normative grammar a
 This guide is organized into the following sections:
 
 1. Volume 1:
-   1. [Business Description](CCG_v1_over.html)
-   1. [Actors](CCG_v1_actor.html)
+   1. [Business Description](YBD_v1_over.html)
+   1. [Actors](YBD_v1_actor.html)
 2. Volume 2: Transaction Detail
-   1. [QRPH-61 - Search for Guidelines](CCG_v2_x1.html)
-   1. [QRPH-62 - Retrieve Guideline](CCG_v2_x2.html)
-   1. [QRPH-63 - Publish Guidelines](CCG_v2_x3.html)
-   1. [QRPH-64 - Apply Guidelines](CCG_v2_x4.html)
+   1. [YBD Transactions](YBD_v2.html)
 3. Volume 3: Metadata and Content
-   1. [CCG Content Specs](CCG_v3_launch.html)
+   1. [YBD Content Specs](YBD_v3.html)
 4. Volume 4: National Extensions
-   1. [Jurisdictional Contextualizations](CCG_v4.html)
+   1. [Jurisdictional Contextualizations](YBD_v4.html)
 5. Other
    1. [Test Plan](testplan.html)
    1. [Changes to Other IHE Specifications](other.html)

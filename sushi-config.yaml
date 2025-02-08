@@ -63,29 +63,20 @@ pages:
   index.md:
     title: Home
     generation: markdown
-  CCG_v1_over.md:
+  YBD_v1_over.md:
     title: "Volume-1: Business Description"
     generation: markdown
-  CCG_v1_actor.md:
+  YBD_v1_actor.md:
     title: "Volume-1: Actors"
     generation: markdown
-  CCG_v2_x1.md:
-    title: 2:3.61 Search for Guidelines [QRPH-61]
+  YBD_v2.md:
+    title: "Volume-2: YBD Transactions"
     generation: markdown
-  CCG_v2_x2.md:
-    title: 2:3.62 Retrieve Guideline [QRPH-62]
+  YBD_v3.md:
+    title: "Volume-3: YBD Content Specifications"
     generation: markdown
-  CCG_v2_x3.md:
-    title: 2:3.63 Publish Guideline [QRPH-63]
-    generation: markdown
-  CCG_v2_x4.md:
-    title: 2:3.64 Apply Guideline [QRPH-64]
-    generation: markdown
-  CCG_v3_launch.md:
-    title: CCG Content Specifications
-    generation: markdown
-  CCG_v4.md:
-    title: Jurisdictional Contextualizations
+  YBD_v4.md:
+    title: "Volume-4: Jurisdictional Contextualizations"
     generation: markdown
   testplan.md:
     title: "Test Plan"
@@ -102,15 +93,11 @@ pages:
 
 menu:
   Home: index.html
-  Vol-1 - Business Description: CCG_v1_over.html
-  Vol-1 - Actors: CCG_v1_actor.html
-  Vol-2 - Transactions:
-    "Search for Guidelines [QRPH-61]": CCG_v2_x1.html
-    "Retrieve Guideline [QRPH-62]": CCG_v2_x2.html
-    "Publish Guideline [QRPH-63]": CCG_v2_x3.html
-    "Apply Guideline [QRPH-64]": CCG_v2_x4.html
-  Vol-3 - Content: CCG_v3_launch.html
-  Vol-4 - Contextualizations: CCG_v4.html
+  Vol-1 - Business Description: YBD_v1_over.html
+  Vol-1 - Actors: YBD_v1_actor.html
+  Vol-2 - Transactions: YBD_v2.html
+  Vol-3 - Content: YBD_v3.html
+  Vol-4 - Contextualizations: YBD_v4.html
   Artifacts: artifacts.html
   Other:
     Changes to Other IHE Specifications: other.html
