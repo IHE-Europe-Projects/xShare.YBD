@@ -23,7 +23,7 @@ style="max-width: 100%; object-fit: contain" />
 
 The relevant YBD actors and their transactions are listed in Table 1.
 
-**Table-1: YBD Actors and Transactions
+**Table-1: YBD Actors and Transactions**
 
 | **Actor** | **Transaction** | **Optionality** |
 |----|----|----|
