@@ -24,68 +24,29 @@ style="max-width: 100%; object-fit: contain" />
 The relevant YBD actors and their transactions are listed in Table 1.
 
 **Table-1: YBD Actors and Transactions
-+-----------------------+-------------------------------------+--------+
-| **Actor**             | **Transaction**                     | **O    |
-|                       |                                     | ptiona |
-|                       |                                     | lity** |
-+=======================+=====================================+========+
-| Authorization Client  | ITI-71: Get Authorization Token     | R      |
-|                       | (Initiator)                         |        |
-+-----------------------+-------------------------------------+--------+
-|                       | ITI-72: Incorporate Authorization   | R      |
-|                       | Token (Initiator)                   |        |
-+-----------------------+-------------------------------------+--------+
-| Authorization Server  | ITI-71: Get Authorization Token     | R      |
-|                       | (Responder)                         |        |
-+-----------------------+-------------------------------------+--------+
-| Resource Server       | ITI-72: Incorporate Authorization   | R      |
-|                       | Token (Responder)                   |        |
-+-----------------------+-------------------------------------+--------+
-| Patient Demographics  | ITI-21: Patient Demographics Query  | R      |
-| Consumer              | (Initiator)                         | Note-1 |
-+-----------------------+-------------------------------------+--------+
-|                       | ITI-78: Mobile Patient Demographics | R      |
-|                       | Query (Initiator)                   | Note-1 |
-+-----------------------+-------------------------------------+--------+
-| Patient Demographics  | ITI-21: Patient Demographics Query  | R      |
-| Supplier              | (Responder)                         | Note-1 |
-+-----------------------+-------------------------------------+--------+
-|                       | ITI-78: Mobile Patient Demographics | R      |
-|                       | Query (Responder)                   | Note-1 |
-+-----------------------+-------------------------------------+--------+
-| Document Consumer     | ITI-66: Find Document Lists         | R      |
-|                       | (Initiator)                         |        |
-+-----------------------+-------------------------------------+--------+
-|                       | ITI-67: Find Document Reference     | R      |
-|                       | (Initiator)                         |        |
-+-----------------------+-------------------------------------+--------+
-|                       | ITI-68: Retrieve Document           | R      |
-|                       | (Initiator)                         |        |
-+-----------------------+-------------------------------------+--------+
-| Document Responder    | ITI-66: Find Document Lists         | R      |
-|                       | (Responder)                         |        |
-+-----------------------+-------------------------------------+--------+
-|                       | ITI-67: Find Document Reference     | R      |
-|                       | (Responder)                         |        |
-+-----------------------+-------------------------------------+--------+
-|                       | ITI-68: Retrieve Document           | R      |
-|                       | (Responder)                         |        |
-+-----------------------+-------------------------------------+--------+
-| Data Consumer         | CA:FeX-2: Search Data (Initiator)   | R      |
-+-----------------------+-------------------------------------+--------+
-|                       | CA:FeX-3: Retrieve Data (Initiator) | R      |
-+-----------------------+-------------------------------------+--------+
-| Data Responder        | CA:FeX-2: Search Data (Responder)   | R      |
-+-----------------------+-------------------------------------+--------+
-|                       | CA:FeX-3: Retrieve Data (Responder) | R      |
-+-----------------------+-------------------------------------+--------+
-| Audit Creator         | ITI-20: Record Audit Event          | R      |
-|                       | (Initiator & Responder)             |        |
-+-----------------------+-------------------------------------+--------+
-| Content Consumer /    | PCC-1: Share content (Initiator /   | R      |
-|                       | Responder)                          | Note-2 |
-| Content Creator       |                                     |        |
-+-----------------------+-------------------------------------+--------+
+| **Actor** | **Transaction** | **Optionality** |
+|----|----|----|
+| Authorization Client | ITI-71: Get Authorization Token (Initiator) | R |
+|  | ITI-72: Incorporate Authorization Token (Initiator) | R |
+| Authorization Server | ITI-71: Get Authorization Token (Responder) | R |
+| Resource Server | ITI-72: Incorporate Authorization Token (Responder) | R |
+| Patient Demographics Consumer | ITI-21: Patient Demographics Query (Initiator) | R Note-1 |
+|  | ITI-78: Mobile Patient Demographics Query (Initiator) | R Note-1 |
+| Patient Demographics Supplier | ITI-21: Patient Demographics Query (Responder) | R Note-1 |
+|  | ITI-78: Mobile Patient Demographics Query (Responder) | R Note-1 |
+| Document Consumer | ITI-66: Find Document Lists (Initiator) | R |
+|  | ITI-67: Find Document Reference (Initiator) | R |
+|  | ITI-68: Retrieve Document (Initiator) | R |
+| Document Responder | ITI-66: Find Document Lists (Responder) | R |
+|  | ITI-67: Find Document Reference (Responder) | R |
+|  | ITI-68: Retrieve Document (Responder) | R |
+| Data Consumer | CA:FeX-2: Search Data (Initiator) | R |
+|  | CA:FeX-3: Retrieve Data (Initiator) | R |
+| Data Responder | CA:FeX-2: Search Data (Responder) | R |
+|  | CA:FeX-3: Retrieve Data (Responder) | R |
+| Audit Creator | ITI-20: Record Audit Event (Initiator & Responder) | R |
+| Content Consumer / Content Creator | PCC-1: Share content (Initiator / Responder) | R Note-2 |
+{:.grid}
 Note-1: In a FHIR infrastructure, both actors SHALL support ITI-78. In a
 legacy (HL7v2) infrastructure, both actors SHALL support ITI-21. The
 actors MAY support both transactions.
