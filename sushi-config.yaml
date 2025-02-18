@@ -63,6 +63,43 @@ pages:
   index.md:
     title: Home
     generation: markdown
+  YBD_v1_over.md:
+    title: "Volume-1: Business Description"
+    generation: markdown
+  YBD_v1_actor.md:
+    title: "Volume-1: Actors"
+    generation: markdown
+  YBD_v2.md:
+    title: "Volume-2: YBD Transactions"
+    generation: markdown
+  YBD_v3.md:
+    title: "Volume-3: YBD Content Specifications"
+    generation: markdown
+  YBD_v4.md:
+    title: "Volume-4: Jurisdictional Contextualizations"
+    generation: markdown
+  testplan.md:
+    title: "Test Plan"
+    generation: markdown
+  other.md:
+    title: Changes to Other IHE Specifications
+    generation: markdown
+  download.md:
+    title: "Download and Analysis"
+    generation: markdown
+  issues.md:
+    title: Significant Changes and Issues
+    generation: markdown
 
 menu:
   Home: index.html
+  Vol-1 - Business Description: YBD_v1_over.html
+  Vol-1 - Actors: YBD_v1_actor.html
+  Vol-2 - Transactions: YBD_v2.html
+  Vol-3 - Content: YBD_v3.html
+  Vol-4 - Contextualizations: YBD_v4.html
+  Artifacts: artifacts.html
+  Other:
+    Changes to Other IHE Specifications: other.html
+    Download and Analysis: download.html
+    Test Plan: testplan.html
